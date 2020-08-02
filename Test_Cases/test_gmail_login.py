@@ -8,7 +8,7 @@ class Gmail(Login):
     def test_gmail_login(self,browser):
         g.brfind_element_by_id('identifierId').send_keys("shamatapatra2216@gmail.com")
 
-
+#xxxx
         #super.self.test_chrome()
         # browser = webdriver.Chrome(executable_path=r"C:/Users/29726.ITCINFOTECH/Desktop/Advantage/Python/PycharmProjects/Google_test_Shukla/Drivers/chromedriver.exe")
         # browser.get('http://gmail.com')
